@@ -1,0 +1,7 @@
+<suite name="FC-Validate">
+  <test name="Validate Integration Log">
+    <classes>
+      <class name="validate.ValidateSamples"/>    <!-- new, unified -->
+    </classes>
+  </test>
+</suite>

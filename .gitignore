@@ -1,0 +1,5 @@
+target/
+test-output/
+code_structure.py
+code_structure.json
+.ignore_folders

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by XML SPY 4.3 (Elemica Inc.) --><RNetDemandForecast Version="2.0">
+  <RNetHeader>
+    <ThisDocumentIdentifier>
+      <DocumentIdentifier>SK_20250601B2_Case3</DocumentIdentifier>
+    </ThisDocumentIdentifier>
+    <ThisDocumentDateTime>
+      <DateTime DateTimeQualifier="On">20250602</DateTime>
+    </ThisDocumentDateTime>
+    <From>
+      <RNetPartnerInformation>
+        <RNetPartnerName>GOODYEAR</RNetPartnerName>
+        <RNetPartnerIdentifier Agency="D-U-N-S">FC01004467924</RNetPartnerIdentifier>
+      </RNetPartnerInformation>
+    </From>
+    <To>
+      <RNetPartnerInformation>
+        <RNetPartnerName>ORION</RNetPartnerName>
+        <RNetPartnerIdentifier Agency="D-U-N-S">130382208</RNetPartnerIdentifier>
+      </RNetPartnerInformation>
+    </To>
+  </RNetHeader>
+  <RNetDemandForecastBody>
+    <RNetDemandForecastProperties>
+      <LanguageCode Domain="ISO 639-2/T">eng</LanguageCode>
+      <ForecastInformation>000000773</ForecastInformation>
+      <ContractInformation>
+        <DocumentReference>
+          <DocumentIdentifier>20250537SK03</DocumentIdentifier>
+        </DocumentReference>
+      </ContractInformation>
+      <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+        <DocumentReference>
+          <DocumentIdentifier>20250537SK03</DocumentIdentifier>
+          <ReleaseNumber>13</ReleaseNumber>
+        </DocumentReference>
+      </ReferenceInformation>
+    </RNetDemandForecastProperties>
+    <RNetDemandForecastPartners>
+      <Buyer>
+        <RNetPartnerInformation>
+          <RNetPartnerName>GOODYEAR</RNetPartnerName>
+          <RNetPartnerIdentifier Agency="D-U-N-S">FC01004467924</RNetPartnerIdentifier>
+        </RNetPartnerInformation>
+      </Buyer>
+      <Seller>
+        <RNetPartnerInformation>
+          <RNetPartnerName>ORION</RNetPartnerName>
+          <RNetPartnerIdentifier Agency="D-U-N-S">130382208</RNetPartnerIdentifier>
+        </RNetPartnerInformation>
+      </Seller>
+      <OtherPartner PartnerRole="ShipTo">
+        <RNetPartnerInformation>
+          <RNetPartnerName>COOPER TIRE RUBBER</RNetPartnerName>
+          <RNetPartnerIdentifier Agency="AssignedByBuyer">N556</RNetPartnerIdentifier>
+        </RNetPartnerInformation>
+      </OtherPartner>
+    </RNetDemandForecastPartners>
+    <RNetDemandForecastDetails>
+      <RNetDemandForecastLineItem>
+        <LineNumber>7</LineNumber>
+        <ForecastProduct>
+          <ProductIdentification Agency="AssignedByBuyer">
+            <ProductIdentifier>20283783</ProductIdentifier>
+            <ProductName>M422-037.80</ProductName>
+          </ProductIdentification>
+          <ProductIdentification Agency="AssignedBySeller">
+            <ProductIdentifier>110000111</ProductIdentifier>
+            <ProductName>CX N220 BDS-50 LB-P337-2500 LB-W</ProductName>
+          </ProductIdentification>
+          <ShipTo>
+            <RNetPartnerInformation>
+              <RNetPartnerName>COOPER TIRE RUBBER</RNetPartnerName>
+              <RNetPartnerIdentifier Agency="AssignedByBuyer">N556</RNetPartnerIdentifier>
+            </RNetPartnerInformation>
+          </ShipTo>
+        </ForecastProduct>
+        <Forecast>
+          <LineNumber>1</LineNumber>
+          <ForecastType>Forecast</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20250537SK03</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0032</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250805</FromDateTime>
+              <ToDateTime>20250805</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>0</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>2</LineNumber>
+          <ForecastType>Forecast</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20250537SK03</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0033</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250806</FromDateTime>
+              <ToDateTime>20250806</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>10002</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>3</LineNumber>
+          <ForecastType>Forecast</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20250537SK03</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0034</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250807</FromDateTime>
+              <ToDateTime>20250807</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>10003</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>4</LineNumber>
+          <ForecastType>Forecast</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20250537SK03</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0035</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250808</FromDateTime>
+              <ToDateTime>20250808</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>10004</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>5</LineNumber>
+          <ForecastType>Forecast</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20250537SK03</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0036</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250809</FromDateTime>
+              <ToDateTime>20250809</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>10005</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>6</LineNumber>
+          <ForecastType>Forecast</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20250537SK03</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0037</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250810</FromDateTime>
+              <ToDateTime>20250810</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>10006</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>7</LineNumber>
+          <ForecastType>Forecast</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20250537SK03</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0038</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250811</FromDateTime>
+              <ToDateTime>20250811</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>10007</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+      </RNetDemandForecastLineItem>
+    </RNetDemandForecastDetails>
+  </RNetDemandForecastBody>
+</RNetDemandForecast>

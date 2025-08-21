@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RNetDemandForecast Version="2.0">
+  <RNetHeader>
+    <ThisDocumentIdentifier>
+      <DocumentIdentifier>FC20250812_SP003</DocumentIdentifier>
+    </ThisDocumentIdentifier>
+    <ThisDocumentDateTime>
+      <DateTime DateTimeQualifier="On">20250812</DateTime>
+    </ThisDocumentDateTime>
+    <From>
+      <RNetPartnerInformation>
+        <RNetPartnerName>GOODYEAR</RNetPartnerName>
+        <RNetPartnerIdentifier Agency="D-U-N-S">FC01004467924</RNetPartnerIdentifier>
+      </RNetPartnerInformation>
+    </From>
+    <To>
+      <RNetPartnerInformation>
+        <RNetPartnerName>ORION</RNetPartnerName>
+        <RNetPartnerIdentifier Agency="D-U-N-S">130382208</RNetPartnerIdentifier>
+      </RNetPartnerInformation>
+    </To>
+  </RNetHeader>
+  <RNetDemandForecastBody>
+    <RNetDemandForecastProperties>
+      <LanguageCode Domain="ISO 639-2/T">eng</LanguageCode>
+      <ForecastInformation>000000773</ForecastInformation>
+      <ContractInformation>
+        <DocumentReference>
+          <DocumentIdentifier>20240812FC001</DocumentIdentifier>
+        </DocumentReference>
+      </ContractInformation>
+      <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+        <DocumentReference>
+          <DocumentIdentifier>20240812FC001</DocumentIdentifier>
+          <ReleaseNumber>13</ReleaseNumber>
+        </DocumentReference>
+      </ReferenceInformation>
+    </RNetDemandForecastProperties>
+    <RNetDemandForecastPartners>
+      <Buyer>
+        <RNetPartnerInformation>
+          <RNetPartnerName>GOODYEAR</RNetPartnerName>
+          <RNetPartnerIdentifier Agency="D-U-N-S">FC01004467924</RNetPartnerIdentifier>
+        </RNetPartnerInformation>
+      </Buyer>
+      <Seller>
+        <RNetPartnerInformation>
+          <RNetPartnerName>ORION</RNetPartnerName>
+          <RNetPartnerIdentifier Agency="D-U-N-S">130382208</RNetPartnerIdentifier>
+        </RNetPartnerInformation>
+      </Seller>
+      <OtherPartner PartnerRole="ShipTo">
+        <RNetPartnerInformation>
+          <RNetPartnerName>COOPER TIRE RUBBER</RNetPartnerName>
+          <RNetPartnerIdentifier Agency="AssignedByBuyer">N556</RNetPartnerIdentifier>
+        </RNetPartnerInformation>
+      </OtherPartner>
+    </RNetDemandForecastPartners>
+    <RNetDemandForecastDetails>
+      <RNetDemandForecastLineItem>
+        <LineNumber>7</LineNumber>
+        <ForecastProduct>
+          <ProductIdentification Agency="AssignedByBuyer">
+            <ProductIdentifier>UC1AutomationTest01_buyer</ProductIdentifier>
+            <ProductName>UC1AutomationTest01_buyer</ProductName>
+          </ProductIdentification>
+          <ProductIdentification Agency="AssignedBySeller">
+            <ProductIdentifier>UC1AutomationTest01_Seller</ProductIdentifier>
+            <ProductName>UC1AutomationTest01_Seller</ProductName>
+          </ProductIdentification>
+          <ShipTo>
+            <RNetPartnerInformation>
+              <RNetPartnerName>COOPER TIRE RUBBER</RNetPartnerName>
+              <RNetPartnerIdentifier Agency="AssignedByBuyer">N556</RNetPartnerIdentifier>
+            </RNetPartnerInformation>
+          </ShipTo>
+        </ForecastProduct>
+        <Forecast>
+          <LineNumber>1</LineNumber>
+          <ForecastType>Firm</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20240812FC001</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0031</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250821</FromDateTime>
+              <ToDateTime>20250821</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>1001.100</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>2</LineNumber>
+          <ForecastType>Firm</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20240812FC001</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0032</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250822</FromDateTime>
+              <ToDateTime>20250822</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>1002.100</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>3</LineNumber>
+          <ForecastType>Firm</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20240812FC001</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0033</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250823</FromDateTime>
+              <ToDateTime>20250823</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>1003</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>4</LineNumber>
+          <ForecastType>Firm</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20240812FC001</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0034</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250824</FromDateTime>
+              <ToDateTime>20250824</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>1004</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>5</LineNumber>
+          <ForecastType>Firm</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20240812FC001</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0035</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250825</FromDateTime>
+              <ToDateTime>20250825</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>1005</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>6</LineNumber>
+          <ForecastType>Firm</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20240812FC001</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0036</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250826</FromDateTime>
+              <ToDateTime>20250826</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>1006</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>7</LineNumber>
+          <ForecastType>Firm</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20240812FC001</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0037</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250827</FromDateTime>
+              <ToDateTime>20250827</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>1007</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+        <Forecast>
+          <LineNumber>9</LineNumber>
+          <ForecastType>Firm</ForecastType>
+          <ReferenceInformation ReferenceType="PurchaseOrderNumber">
+            <DocumentReference>
+              <DocumentIdentifier>20240812FC001</DocumentIdentifier>
+              <ReferenceItem>00015</ReferenceItem>
+              <ReleaseNumber>13</ReleaseNumber>
+              <ShipmentLineNumber>0039</ShipmentLineNumber>
+            </DocumentReference>
+          </ReferenceInformation>
+          <PlanWindow>
+            <DateTimeRange>
+              <FromDateTime>20250828</FromDateTime>
+              <ToDateTime>20250828</ToDateTime>
+            </DateTimeRange>
+          </PlanWindow>
+          <PlanQuantity>
+            <MeasurementInformation>
+              <SpecifiedMeasurement MeasurementQualifier="EqualTo">
+                <Measurement>
+                  <MeasurementValue>0</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN/CEFACT Recommendation 20">KGM</UnitOfMeasureCode>
+                </Measurement>
+              </SpecifiedMeasurement>
+            </MeasurementInformation>
+          </PlanQuantity>
+        </Forecast>
+      </RNetDemandForecastLineItem>
+    </RNetDemandForecastDetails>
+  </RNetDemandForecastBody>
+</RNetDemandForecast>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MultiBrowserTestSuite" parallel="tests" thread-count="1">
+  <test name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="sessionScope" value="class"/>  <!-- single session for the class -->
+    <classes>
+      <class name="uploadSample.UploadSample"/>
+    </classes>
+  </test>
+</suite>
